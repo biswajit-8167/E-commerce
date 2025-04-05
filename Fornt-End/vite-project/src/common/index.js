@@ -1,0 +1,83 @@
+const backEndUrl = "http://localhost:5000";
+
+const SummmaryApi ={
+    signUp:{
+        url:`${backEndUrl}/api/signup`,
+        method:"POST",
+    },
+    signIn:{
+        url:`${backEndUrl}/api/signin`,
+        method:"POST",
+    },
+    current_user:{
+        url:`${backEndUrl}/api/user-details`,
+        method:"GET",
+    },
+    logout_user:{
+        url:`${backEndUrl}/api/userlogout`,
+        method:"GET",
+    },
+    allUser:{
+        url:`${backEndUrl}/api/all-user`,
+        method:"GET",
+    },
+    updateUser:{
+        url:`${backEndUrl}/api/update-user`,
+        method:"POST",
+    },
+    uploadProduct:{
+        url:`${backEndUrl}/api/upload-product`,
+        method:"POST",
+    },
+    allProduct:{
+        url:`${backEndUrl}/api/all-product`,
+        method:"GET",
+    },
+    UpdateProduct:{
+        url:`${backEndUrl}/api/update-product`,
+        method:"POST",
+    },
+    getCetagoryProduct:{
+        url:`${backEndUrl}/api/get-category`,
+        method:"GET",
+    },
+    categoryWiseProduct:{
+        url:`${backEndUrl}/api/category-product`,
+        method:"POST",
+    },
+    ProductDetails:{
+        url:`${backEndUrl}/api/product-details`,
+        method:"POST",
+    },
+    addToCartProduct:{
+        url:`${backEndUrl}/api/addtocart`,
+        method:"POST",
+    },
+    addToCartCountProduct:{
+        url:`${backEndUrl}/api/addtocount`,
+        method:"GET",
+    },
+    addToCartViewProduct:{
+        url:`${backEndUrl}/api/view-cart-product`,
+        method:"GET",
+    },
+    updateAddToCartProduct:{
+        url:`${backEndUrl}/api/update-cart-product`,
+        method:"POST",
+    },
+    deleteAddToCartProduct:{
+        url:`${backEndUrl}/api/delete-cart-product`,
+        method:"POST",
+    },
+    searchProduct:{
+        url:`${backEndUrl}/api/search`,
+        method:"GET",
+    },
+    filterProduct:{
+        url:`${backEndUrl}/api/filter-product`,
+        method:"POST",
+    },
+
+}
+
+export default SummmaryApi;
