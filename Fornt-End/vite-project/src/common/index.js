@@ -1,4 +1,4 @@
-const backEndUrl = "http://localhost:5000";
+const backEndUrl = "https://mern-backend-zdnq.onrender.com";
 
 const SummmaryApi ={
     signUp:{
